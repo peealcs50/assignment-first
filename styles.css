@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans';
+}
+
+/* Top banner section style */
+
+.top-banner{
+    background-image: url(images/banner/banner3.png);
+    background-size: cover;
+    height: 100vh;
+    background-blend-mode: multiply;
+
+}
+
+.top-banner-text{
+    
+    text-align: right;
+}
+
+.top-banner-text h1{
+    padding-top: 200px;
+    padding-right: 210px;
+    font-size: 48px;
+    font-family:Open Sans;
+    color: white;
+}
+
+.top-banner-text p{
+    color: white;
+    padding-right: 210px;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    text-align: right;
+    margin-right: 210px;
+    padding: 10px 15px;
+    border-radius: solid #004ba0 5px;
+    color: #004ba0;
+    font-weight: bold;
+}
+
+/* main banner section style */
+
+.container-main{
+    display: flex;
+    height: 100vh;
+
+}
+
+.girl{
+    margin-right:30px;
+    height: 400px;
+    width: 400px;
+    margin: 100px;
+    margin-right:80px;
+    margin-left: 200px;
+}
+
+.text-title-main{
+
+    text-align: left;
+    margin-top: 220px;
+}
+
+.description-main{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 10px;
+
+}
+
+li{
+    list-style: none;
+    font-size: 10px;
+
+}
+
+/* Plan section syles  */
+
+.plan-header-title{
+    text-align: center;
+    font-family: 'Work Sans';
+    margin:50px;
+    font-weight: 700px;
+    font-size: 40px;
+
+}
+
+.plan-container{
+    display: flex;
+    justify-content: center;
+    background-color:white;
+}
+
+.plan-icons{
+    margin: 0px 80px;
+}
+
+.plan-icon-text{
+    text-align: center;
+}
+h4{
+    font-weight: 700px;
+    font-size: 30px;
+    color: #151414;
+    font-family: 'Work Sans';
+
+}
+.plan-description{
+    color: #737272;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* Bottom container */
+.bottom-container{
+    margin: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 100px;
+    border-radius:13px;
+    background-image: url(images/gradient1.png),url(images/watch.png);
+    background-repeat: no-repeat;
+    background-blend-mode:rgba(0, 95, 172, 0);
+}
+
+.bottom-container-title{
+    color: white;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+
+
+/* Footer container styles */
+
+.footer-container{
+    height: 50vh;
+    background-color: #151414;
+}
